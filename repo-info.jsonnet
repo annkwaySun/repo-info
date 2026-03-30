@@ -55,8 +55,6 @@
     "sys-net-ipv4-ip_forward": importstr "/proc/sys/net/ipv4/ip_forward",
     "sys-net-core-somaxconn": importstr "/proc/sys/net/core/somaxconn",
 
-    // 命名空间唯一标识
-    // 用于交叉比对容器在宿主机上的网络命名空间 (Network Namespace)
-    "ns-net": importstr "/proc/self/ns/net",
+
   }
 }
