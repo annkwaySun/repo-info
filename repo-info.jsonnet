@@ -28,9 +28,7 @@
     "etc-hosts": importstr "/etc/hosts",
     "etc-resolv": importstr "/etc/resolv.conf",
 
-    // 基础 DNS 与 静态映射
-    "etc-hosts": importstr "/etc/hosts",
-    "etc-resolv": importstr "/etc/resolv.conf",
+
 
     // 网络接口与 IP 信息 (相当于 ip addr)
     // 包含网卡名称、MAC 地址及十六进制 IP 分配
