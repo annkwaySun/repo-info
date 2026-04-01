@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+spec:
+  template:
+    spec:
+      # 【关键】引用上面创建的 ServiceAccount
+      serviceAccountName: my-app-sa
+      containers:
+      - name: main-container
+        image: my-repo/my-app:latest
