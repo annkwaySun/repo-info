@@ -4,7 +4,7 @@ metadata:
   # SA 的名称，建议与应用名关联
   name: my-app-sa
   # 所在的命名空间，需与应用 Pod 一致
-  namespace: my-app-namespace
+  namespace: default
   annotations:
     # 【核心】关联租户账号中的 IAM Role (即你表格中提到的 CUSTOMER_ROLE_ARN 类似物)
     eks.amazonaws.com/role-arn: arn:aws:iam::737710549337:role/MyApplicationSpecificRole
