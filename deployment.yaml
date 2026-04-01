@@ -9,4 +9,4 @@ spec:
       serviceAccountName: my-app-sa
       containers:
       - name: main-container
-        image: my-repo/my-app:latest
+        image: alpine
